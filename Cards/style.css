@@ -1,0 +1,48 @@
+img{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#card1{
+    top: 0;
+    left: 0;
+}
+
+#card2{
+    top: 0;
+    left: 20px;
+}
+
+#card3{
+    top: 0;
+    left: 40px;
+}
+
+#card4{
+    top: 0;
+    left: 60px;
+}
+
+#card5{
+    top: 0;
+    left: 300px;
+}
+
+#card6{
+    top: 20px;
+    left: 320px;
+}
+
+#card7{
+    top: 40px;
+    left: 340px;
+}
+
+#card8{
+    top: 60px;
+    left: 360px;
+}
+
