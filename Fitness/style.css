@@ -1,0 +1,146 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+.header >.menu{
+    width: 100%;
+    height: 35px;
+    background-color: #535353;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header >.menu >.menuItem{
+    width: 140px;
+    height: 35px;
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header >.menu >.menuItem >p{
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header >.menu >.menuItem:hover{
+    background-color: #474747;
+    flex-grow: 0.1;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.content{
+    margin-top: 35px;
+    display: flex;
+}
+
+.categories{
+    width: 230px;
+    height: 220px;
+}
+
+.categories >.categoryItems{
+    border: 1px solid #cacaca;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+.categoryItems >.item{
+    border: 1px solid #cacaca;
+}
+
+.item >td{
+    border: 1px solid #cacaca;
+}
+
+.item >td >span{
+    margin-left: 20px;
+    color: #9b9b9b;
+    font-family: 'Play', sans-serif;
+}
+
+.item >td:hover{
+    background-color: #f9f9f9;
+}
+
+.item >td:hover span{
+    color: #262626;
+    margin-left: 30px;
+}
+
+.info{
+    width: 78%;
+    height: auto;
+    margin-left: 50px;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+}
+
+.image{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #c8c8c8;
+    margin: auto;
+}
+
+.image >img{
+    width: 100%;
+    height: 100%;
+}
+
+.text >p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12pt;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.footer >.menu{
+    background-color: #e1e1e1;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer >.menu >.menuItem{
+    width: 140px;
+    height: 35px;
+    font-size: 12pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer >.menu >.menuItem >p{
+    margin: 0;
+    color: #363636;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer >.menu >.rightsInfo{
+    width: 210px;
+    border: 0;
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.footer >.menu >.menuItem:hover{
+    flex-grow: 0.1;
+}
+
+.footer >.menu >.menuItem:hover p{
+    text-decoration: underline;
+}
+
+.footer >.menu >.rightsInfo:hover{
+    flex-grow: 0;
+}
+
+.footer >.menu >.rightsInfo:hover p{
+    text-decoration: none;
+}
