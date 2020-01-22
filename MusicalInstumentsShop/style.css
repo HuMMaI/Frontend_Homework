@@ -1,0 +1,404 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+.header >.menu{
+    width: 100%;
+    height: 35px;
+    background-color: #535353;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header >.menu >.menuItem{
+    width: 140px;
+    height: 35px;
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.header >.menu >.menuItem >p{
+    margin: 0;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.45vw;
+}
+
+.header >.menu >.menuItem:hover{
+    background-color: #474747;
+    flex-grow: 0.1;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    height: 50%;
+}
+
+.categories{
+    width: 100%;
+    height: 52%;
+}
+
+.categories >.categoryItems{
+    border: 1px solid #cacaca;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+.categoryItems >.item{
+    border: 1px solid #cacaca;
+}
+
+.item >td{
+    border: 1px solid #cacaca;
+    transition: 0.25s;
+}
+
+.item >td >span{
+    margin-left: 20px;
+    color: #9b9b9b;
+    font-family: 'Play', sans-serif;
+    font-size: 1.2vw;
+    transition: 0.25s;
+}
+
+.item >td:hover{
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.item >td:hover span{
+    color: #262626;
+    margin-left: 30px;
+}
+
+.priceBox{
+    width: 99%;
+    border: 1px solid #cacaca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 43%;
+    margin-top: 8%;
+}
+
+.price{
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+#priceField{
+    width: 100%;    
+    border: 0;
+    outline: 1px solid #cacaca;
+    transition: 0.25s;
+}
+
+#priceField:hover{
+    outline: 1px solid #9d9d9d;
+}
+
+#priceField:focus{
+    outline: 1px solid #9d9d9d;
+}
+
+.priceBox >.text{
+    color: #262626;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-size: 1.1vw;
+    text-decoration: underline;
+}
+
+.priceBox >.price >.text2{
+    color: #262626;
+    font-family: 'Play', sans-serif;
+    font-size: 0.95vw;
+}
+
+.lbl2{
+    margin-top: 0;
+}
+
+#btn{
+    margin-top: 7%;
+    width: 66%;
+    font-family: 'Play', sans-serif;
+    border: 0;
+    outline: 1px solid #262626;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#btn:hover{
+    background-color: #b1b1b1;
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 19%;
+    height: 31vw;
+}
+
+.rightBox{
+    width: 78%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.content{
+    width: 100%;
+    height: 73%;
+    border: 1px solid #c8c8c8;
+    display: flex;
+}
+
+.info{
+    margin-top: 2%;
+    height: 26%;
+    width: 100%;
+    border: 1px solid #c8c8c8;
+}
+
+.imgItem >img, .imgItem1 >img{
+    outline: 4px double #c8c8c8;
+}
+
+.imgItem1 >img{
+    width: 100%;
+}
+
+.imgItem >img{
+    width: 18%;
+}
+
+.imgItem1{
+    display: inline-flex;
+    height: 82%;
+    width: 100%;
+}
+
+.imgItem{
+    margin: auto;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.imgBox{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    height: 76%;
+}
+
+.textBox{
+    width: 55%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.info >h3, .textBox >h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #9b9b9b;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-size: 1.4vw;
+}
+
+.info >p, .textBox >p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #262626;
+    font-size: 0.9vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+
+.footer >.menu{
+    background-color: #e1e1e1;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer >.menu >.menuItem{
+    width: 140px;
+    height: 35px;
+    font-size: 12pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.footer >.menu >.menuItem >p{
+    margin: 0;
+    color: #363636;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+}
+
+.footer >.menu >.rightsInfo{
+    width: 210px;
+    border: 0;
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.footer >.menu >.menuItem:hover{
+    flex-grow: 0.1;
+}
+
+.footer >.menu >.menuItem:hover p{
+    text-decoration: underline;
+}
+
+.footer >.menu >.rightsInfo:hover{
+    flex-grow: 0;
+}
+
+.footer >.menu >.rightsInfo:hover p{
+    text-decoration: none;
+}
+
+.footer{
+    margin-top: 3%;
+}
+
+.textBox >.name{
+    color: #292929;
+}
+
+@media screen and (min-width: 1024px){
+    .imgBox{
+        height: 93%;
+    }
+    
+    .imgItem1{
+        height: 82%;
+    }
+    
+    .imgItem{
+        height: 15%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .imgBox{
+        width: 48%;
+        height: 92%;
+    }
+    
+    .content{
+        height: auto;
+    }
+    
+    .info{
+        height: 28%;
+    }
+    
+    .imgItem >img{
+        width: 17%;
+    }
+    
+    .main{
+        height: 50%;
+    }
+    
+    .leftBox{
+        height: 38vw;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .main{
+        flex-direction: column-reverse;
+    }
+    
+    .rightBox{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .content, .info{
+        border: 0;
+        outline: 1px solid #c8c8c8;
+    }
+
+    .content{
+        height: auto;
+        justify-content: space-around;
+    }
+    
+    .imgBox{
+        width: 33%;
+        height: 86%;
+    }
+    
+    .leftBox{
+        margin-top: 2%;
+        width: 100%;
+        flex-direction: row;
+        align-items: stretch;
+        height: auto;
+    }
+    
+    .priceBox{
+        margin-top: 0;
+        height: auto;
+        outline: 1px solid #cacaca;
+        border: 0;
+        margin-left: 2%;
+    }
+    
+    .categories{
+        height: auto;
+    }
+    
+    .price{
+        margin-top: 3%;
+    }
+    
+    .lbl2{
+        margin-top: 0;
+    }
+    
+    #btn{
+        margin-top: 6%;
+        font-size: 1vw;
+    }
+    
+    .imgItem{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .imgItem >img{
+        width: 16%;
+    }
+}
